@@ -1,0 +1,19 @@
+{
+    "name": "Aditya",
+    "template_name": "DHCP Template",
+    "short_description": "Template for DHCP",
+    "code": {
+            "interfaces": [
+                {
+                    "name": "eth0",
+                    "type": "ethernet",
+                    "addresses": [
+                        {
+                            "proto": "dhcp",
+                            "family": "ipv4"
+                        }
+                    ]
+                }
+            ]
+        }
+}
